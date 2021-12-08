@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("fonts/myriadPro/MyriadPro-Regular.eot");
+  src: url("fonts/myriadPro/MyriadPro-Regular.eot?#iefix")format("embedded-opentype"),
+  url("fonts/myriadPro/MyriadPro-Regular.woff") format("woff"),
+  url("fonts/myriadPro/MyriadPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url("fonts/myriadPro/MyriadPro-Bold.eot");
+  src: url("fonts/myriadPro/MyriadPro-Bold.eot?#iefix")format("embedded-opentype"),
+  url("fonts/myriadPro/MyriadPro-Bold.woff") format("woff"),
+  url("fonts/myriadPro/MyriadPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/calibri/Calibri.eot');
+  src: local('Calibri'),
+  url('fonts/calibri/Calibri.eot?#iefix') format('embedded-opentype'),
+  url('fonts/calibri/Calibri.woff2') format('woff2'),
+  url('fonts/calibri/Calibri.woff') format('woff'),
+  url('fonts/calibri/Calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/calibri/Calibri-Italic.eot');
+  src: local('Calibri Italic'), local('Calibri-Italic'),
+  url('fonts/calibri/Calibri-Italic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/calibri/Calibri-Italic.woff2') format('woff2'),
+  url('fonts/calibri/Calibri-Italic.woff') format('woff'),
+  url('fonts/calibri/Calibri-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/calibri/Calibri-Bold.eot');
+  src: local('Calibri Bold'), local('Calibri-Bold'),
+  url('fonts/calibri/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/calibri/Calibri-Bold.woff2') format('woff2'),
+  url('fonts/calibri/Calibri-Bold.woff') format('woff'),
+  url('fonts/calibri/Calibri-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Calibri", sans-serif;
+  color: #494848;
+}
+.title_font {
+  font-family: "MyriadPro-Bold", sans-serif;
+}
+.content_font {
+  font-family: "MyriadPro-Regular", sans-serif;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.h3 {
+  font-size: 27px;
+  line-height: 32px;}
+
+.h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.h5 {
+  font-size: 22px;
+  line-height: 24px;
+}

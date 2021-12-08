@@ -1,0 +1,109 @@
+@import "../../_helpers/scss/variables";
+
+.footer {
+  color: $colorText;
+
+  &__contacts_container{
+    background-color: $bgColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    @media screen and (min-width: 481px) {
+      padding-top: 110px;
+      padding-bottom: 106px;
+    }
+
+
+    &__line_get-in-touch {
+      padding-bottom: 44px;
+    }
+  }
+
+  &__contacts_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__contacts_icon-svg:hover {
+    fill: $colorLine;
+  }
+
+  &__contacts_link {
+    outline: none;
+    text-decoration: none;
+    color: $colorText;
+
+    &_line {
+      padding-bottom: 14px;
+    }
+
+    &_text {
+      color: $colorText;
+      padding-left: 14px;
+    }
+
+    &_text:hover {
+      color: $colorLine;
+    }
+
+  }
+
+  &__contacts_link:hover {
+    color: $colorLine;
+  }
+
+  &__title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media screen and (min-width: 481px) {
+      padding-bottom: 60px;
+    }
+  }
+  &__input {
+    background-color: $bgColor;
+    height: 20px;
+    border-radius: 0;
+    border-color: $bgColor;
+    border-bottom-color: $colorText;
+    resize: none;
+
+    &_btn {
+      background-color: $footerBtnColor;
+      border-color: $footerBtnColor;
+      border-radius: 20px;
+      width: 125px;
+      margin-top: 8px;
+    }
+
+    &_btn:hover {
+      background-color: $colorLine;
+      border-color: $colorLine;
+    }
+  }
+
+  &__input:focus {
+    outline: none;
+    background-color: $bgColor;
+  }
+
+  &__copyright_line {
+    background-color: $colorLine;
+    padding: 20px 0;
+    text-align: center;
+    @media screen and (min-width: 481px) {
+      padding: 60px 0;
+    }
+  }
+
+  &__copyright_text {
+    color: white;
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+}
+
+

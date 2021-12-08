@@ -1,0 +1,65 @@
+@import "../../_helpers/scss/variables";
+
+.slider-part {
+  margin-top: 66px;
+  background-color: $bgColor;
+  padding-bottom: 40px;
+
+  &__title {
+    font-size: 30px ;
+    padding: 34px 0;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    @media screen and (min-width: 481px) {
+     font-size: 36px;
+    }
+
+  }
+
+  &__slider_container {
+    display: flex;
+  }
+
+  &__slider_img{
+    float: left;
+    padding-right: 50px;
+    @media screen and (max-width: 481px) {
+      padding-bottom: 20px;
+    }
+  }
+
+  &__slider_text {
+    font-size: 16px;
+    line-height: 14px;
+    @media screen and (min-width: 481px) {
+      font-size: 18px;
+    }
+
+  }
+
+  &__slider_arrow_container {
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  &__slider_box-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    width: 45px;
+    height: 38px;
+    background-color: $mainBtnColor;
+  }
+
+  &__slider_arrow_next {
+    margin-left: 16px;
+  }
+
+  &__about_arrows_container {
+    justify-content: flex-end;
+  }
+}

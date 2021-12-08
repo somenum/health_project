@@ -1,0 +1,97 @@
+@import "../../_helpers/scss/variables";
+
+.tabs {
+  margin-top: 30px;
+
+  &__nav_text {
+    font-size: 18px;
+    font-weight: bold;
+    color: $colorLine;
+    @media screen and (min-width: 481px) {
+      font-size: 24px;
+    }
+  }
+
+
+  &__nav_text:hover {
+    color: $colorTextMain;
+  }
+
+  &__card {
+    border: 3px solid $colorLine;
+
+    &_title_container {
+      text-align: end;
+    }
+
+    &_title {
+      padding-bottom: 20px;
+      @media screen and (max-width: 481px) {
+        font-size: 30px;
+      }
+    }
+
+    &_content {
+      font-size: 19px;
+      line-height: 17px;
+    }
+
+    &_text {
+      padding-top: 44px;
+      @media screen and (max-width: 481px) {
+        font-size: 16px;
+      }
+    }
+
+    &_address {
+      font-style: italic;
+      color: $colorLine;
+    }
+
+    &_bottom_container {
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+    }
+
+    &_phone {
+      font-weight: bold;
+      @media screen and (max-width: 481px) {
+        font-size: 16px;
+      }
+    }
+
+    &_btn_container {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &_btn {
+      background-color: $contentBtnColor;
+      border-color: $contentBtnColor ;
+    }
+    &_btn:hover {
+      background-color: $colorLine;
+      border-color: $colorLine;
+    }
+  }
+
+  &__btn_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  &__btn {
+    background-color: $mainBtnColor;
+    border-color: $mainBtnColor;
+    color: $colorTextMain;
+  }
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}

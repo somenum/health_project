@@ -1,0 +1,106 @@
+@import "../../_helpers/scss/variables";
+
+.header {
+  background-color: $colorLine;
+  padding-top: 26px;
+  padding-bottom: 26px;
+
+  &__text {
+    font-size: 18px;
+    line-height: 20px;
+    @media screen and (min-width: 481px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    @media screen and (min-width: 1067px){
+      font-size: 24px;
+    }
+  }
+
+  &__logo_img {
+    height: 50px;
+    width: 50px;
+    fill: white;
+    @media screen and (min-width: 481px) {
+      height: 60px;
+      width: 60px;
+    }
+
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 481px) {
+      align-items: flex-end;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    margin-bottom: 10px;
+    @media screen and (min-width: 481px){
+      margin-bottom: 0;
+    }
+    &_text {
+      font-weight: bold;
+      text-shadow: 0 6px 14px gray;
+      color: white;
+      padding-left: 26px;
+    }
+  }
+
+  &__number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    &_icon {
+      height: 20px;
+      width: 20px;
+      fill: white;
+      border-radius: 5px;
+      @media screen and (min-width: 481px) {
+        height: 25px;
+        width: 25px;
+      }
+    }
+    &_text {
+      padding-left: 16px;
+      color: white;
+    }
+  }
+
+  &__menu_text:hover {
+    color: white!important;
+  }
+}
+
+.content__container {
+  @media screen and (max-width: 481px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

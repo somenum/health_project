@@ -1,0 +1,58 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+  &__container {
+    padding: 0;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 66px;
+    padding-bottom: 30px;
+
+    &_best {
+      background-color: #43b1d2;
+    };
+
+    &_emergency {
+      background-color: #3fb6c6;
+    };
+
+    &_medical {
+      background-color: #3cbbbb;
+    };
+
+    &_qualified {
+      background-color: #37c3a8;
+    };
+
+    &__icon_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 66px;
+      height: 66px;
+      background-color: white;
+      border-radius: 50%;
+    }
+
+    &_title{
+      font-weight: bold;
+      padding-top: 22px;
+    }
+
+    &_text {
+      font-size: 14px;
+      line-height: 27px;
+      max-width: 260px;
+      padding-top: 14px;
+    }
+  }
+};

@@ -1,0 +1,55 @@
+@import "../../_helpers/scss/variables";
+
+.main__content {
+  background-color: $bgColor;
+  @media screen and (min-width: 481px) {
+    background-color: $bgColor;
+  }
+  @media screen and (min-width: 993px) {
+    background-image: url('blocks/main-content/img/img-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    text-align: center;
+
+    @media screen and (min-width: 993px){
+      align-items: flex-end;
+      padding-top: 108px;
+      padding-bottom: 36px;
+      text-align: end;
+    }
+  }
+
+  &_text{
+    padding-bottom: 56px;
+    @media screen and (max-width: 993px) {
+     font-size: 20px;
+    }
+  }
+
+  &_call-text {
+    @media screen and (max-width: 993px) {
+      font-size: 30px;
+    }
+  }
+
+  &_input {
+    margin-top: 40px;
+    @media screen and (min-width: 365px) {
+      width: 340px;
+    }
+  }
+};
+
+
+
+
+

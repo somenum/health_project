@@ -1,0 +1,26 @@
+@import "~normalize.css";
+@import "~bootstrap/scss/bootstrap";
+@import "blocks/slider-part/slickfix";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+@import "_helpers/scss/variables";
+@import "fonts/fonts";
+@import "_helpers/sprite/icons";
+@import "blocks/header/header";
+@import "blocks/main-content/main-content";
+@import "blocks/services/services";
+@import "blocks/tabs/tabs";
+@import "blocks/slider-part/slider-part";
+@import "blocks/pre-footer/pre-footer";
+@import "blocks/footer/footer";
+
+.main__container {
+  padding: 0;
+}
+
+.content__container {
+  max-width: 1440px;
+}
+
+
+
